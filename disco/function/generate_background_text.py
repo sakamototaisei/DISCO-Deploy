@@ -20,7 +20,7 @@ def generate_background(texts):
     background_path_B = "disco/images/DJ-TEXT.png"  # 3P, 4P 用
 
     # フォント設定
-    font_path = "disco/font_style/hanazomefont/はなぞめフォント.ttf"  # 実際のフォントファイルパスに置き換えてください
+    font_path = "disco/font_style/hanazomefont/flower-dye-font.ttf"  # 実際のフォントファイルパスに置き換えてください
     font_size = 43
     try:
         font = ImageFont.truetype(font_path, font_size)
