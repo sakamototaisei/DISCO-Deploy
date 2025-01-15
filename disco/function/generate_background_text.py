@@ -16,11 +16,11 @@ def generate_background(texts):
         list of bytes: テキストを描画した画像のバイト列を4枚分リストで返す
     """
     # --- 背景画像パスを指定 ---
-    background_path_A = "images/dance-text.png"  # 1P, 2P 用
-    background_path_B = "images/DJ-TEXT.png"  # 3P, 4P 用
+    background_path_A = "disco/images/dance-text.png"  # 1P, 2P 用
+    background_path_B = "disco/images/DJ-TEXT.png"  # 3P, 4P 用
 
     # フォント設定
-    font_path = "font_style/hanazomefont/はなぞめフォント.ttf"  # 実際のフォントファイルパスに置き換えてください
+    font_path = "disco/font_style/hanazomefont/はなぞめフォント.ttf"  # 実際のフォントファイルパスに置き換えてください
     font_size = 43
     try:
         font = ImageFont.truetype(font_path, font_size)
