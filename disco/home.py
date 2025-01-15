@@ -95,7 +95,7 @@ def process_submission() -> None:
     # ======================
     # 1P: コーク登場シーン(固定画像)
     try:
-        with open("images/dance.jpg", "rb") as f:
+        with open("disco/images/dance.jpg", "rb") as f:
             page1_illustration = f.read()
     except Exception as e:
         st.error(f"1P画像読み込み中にエラー: {e}")
@@ -117,7 +117,7 @@ def process_submission() -> None:
 
     # 3P: コークがDJ体験へ案内(固定画像)
     try:
-        with open("images/DJ.jpg", "rb") as f:
+        with open("disco/images/DJ.jpg", "rb") as f:
             page3_illustration = f.read()
     except Exception as e:
         st.error(f"3P画像読み込み中にエラー: {e}")
