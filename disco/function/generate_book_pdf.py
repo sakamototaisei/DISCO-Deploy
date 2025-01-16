@@ -37,7 +37,7 @@ def generate_pdf(illustration_data_list: List[bytes], background_data_list: List
     # ----------------------------
     # (1) 【追加】表紙画像を最初のページに挿入
     # ----------------------------
-    front_cover_path = "images/front-cover.png"  # 指定された表紙のパス
+    front_cover_path = "disco/images/front-cover.png"  # 指定された表紙のパス
     try:
         cover_img = Image.open(front_cover_path).convert("RGB")
         cover_img = cover_img.resize((pdf_width, pdf_height), Image.LANCZOS)
