@@ -133,5 +133,5 @@ An adult woman with black hair styled in two elegant braids that fall gracefully
 # """
 
 # 4P用の大人のダンス姿の画像生成プロンプト2
-ADULT_DJ_IMAGE_PROMPT = """He is wearing an oversized T-shirt, performing energetically on a futuristic neon-lit DJ booth, colorful spotlights shining from above, vinyl turntables and glowing speakers pulsing to the beat, the crowd's silhouettes dancing in the background, retro-futuristic club atmosphere, in a cartoonish anime style, vibrant and saturated colors, dynamic lighting effects, A manga style illustration aimed at elementary school children
+ADULT_DJ_IMAGE_PROMPT = """performing energetically on a futuristic neon-lit DJ booth, colorful spotlights shining from above, vinyl turntables and glowing speakers pulsing to the beat, the crowd's silhouettes dancing in the background, retro-futuristic club atmosphere, in a cartoonish anime style, vibrant and saturated colors, dynamic lighting effects, A manga style illustration aimed at elementary school children
 """
