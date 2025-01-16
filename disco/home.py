@@ -30,7 +30,7 @@ st.set_page_config(
 
 # タイトルと説明
 st.title("こどもディスコ思い出絵本")
-st.write("プロンプトを入力し、「絵本を作成する」→「PDFを生成する」の順で操作します。")
+st.write("名前、性別、顔写真を入力し、「絵本を作成する」→「PDFを生成する」の順で操作します。")
 
 
 def initialize_session_state() -> None:
